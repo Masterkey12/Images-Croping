@@ -16,7 +16,7 @@ if(isset($_POST["image"]))
 
  $imageName = time() . '.png';
 
- file_put_contents($imageName, $data);p
+ file_put_contents($imageName, $data);
 
  $image_file = addslashes(file_get_contents($imageName));
 
