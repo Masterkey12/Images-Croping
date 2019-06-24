@@ -26,7 +26,7 @@ if(isset($_POST["image"]))
 
  if($statement->execute())
  {
-  echo '';
+  echo 'Enregistrement effectué avec succès';
   unlink($imageName);
  }
 
