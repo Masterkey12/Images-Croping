@@ -7,7 +7,7 @@ if(isset($_POST["image"]))
  include('database_connection.php');
 
  $data = $_POST["image"];
-d
+
  $image_array_1 = explode(";", $data);
 
  $image_array_2 = explode(",", $image_array_1[1]);
