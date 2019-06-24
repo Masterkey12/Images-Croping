@@ -10,7 +10,7 @@ $statement = $connect->prepare($query);
 
 $output = '<div class="row">';
 
-if($statement->execute())
+if($statement->execute())g
 {
  $result = $statement->fetchAll();
 
