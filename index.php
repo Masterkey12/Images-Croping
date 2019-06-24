@@ -20,7 +20,7 @@
       <div class="panel-heading">Select Profile Image</div>
       <div class="panel-body" align="center">
        <input type="file" name="insert_image" id="insert_image" accept="image/*" />
-       <br />p
+       <br />
        <div id="store_image"></div>
       </div>
      </div>
