@@ -18,7 +18,7 @@ if(isset($_POST["image"]))
 
  file_put_contents($imageName, $data);
 
- $image_file = addslashes(file_get_contents($imageName));
+ $image_file = addslashes(file_get_contents($imageName));p
 
  $query = "INSERT INTO tbl_images(images) VALUES ('".$image_file."')";
 
