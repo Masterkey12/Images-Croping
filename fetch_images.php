@@ -8,7 +8,7 @@ $query = "SELECT * FROM tbl_images ORDER BY image_id DESC";
 
 $statement = $connect->prepare($query);
 
-$output = '<div class="row">';
+$output = '<div class="row">';d
 
 if($statement->execute())
 {
