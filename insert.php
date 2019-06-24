@@ -1,7 +1,7 @@
 <?php
 
 //insert.php
-
+///enregistrement
 if(isset($_POST["image"]))
 {
  include('database_connection.php');
