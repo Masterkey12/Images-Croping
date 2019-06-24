@@ -26,7 +26,7 @@ if(isset($_POST["image"]))
 
  if($statement->execute())
  {
-  echo 'Image save into database';
+  echo '';
   unlink($imageName);
  }
 
