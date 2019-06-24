@@ -12,7 +12,7 @@ $output = '<div class="row">';
 
 if($statement->execute())
 {
- $result = $statement->fetchAll();d
+ $result = $statement->fetchAll();
 
  foreach($result as $row)
  {
