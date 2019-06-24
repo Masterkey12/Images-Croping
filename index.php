@@ -22,7 +22,7 @@
        <input type="file" name="insert_image" id="insert_image" accept="image/*" />
        <br />
        <div id="store_image"></div>
-      </div>
+      </div>p
      </div>
     </div>
     </body>  
