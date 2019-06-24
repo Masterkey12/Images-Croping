@@ -13,7 +13,7 @@
     <body>  
         <div class="container">
           <br />
-      <h3 align="center">Image Crop and Save into Database using PHP with Ajax</h3>
+      <h3 align ="center">Image Crop and Save into Database using PHP with Ajax</h3>
       <br />
       <br />
    <div class="panel panel-default">
