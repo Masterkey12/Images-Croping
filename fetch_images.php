@@ -1,6 +1,7 @@
 <?php
 
 //fetch_images.php
+//Envoi des images 
 
 include('database_connection.php');
 
