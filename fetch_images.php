@@ -13,7 +13,7 @@ $output = '<div class="row">';
 if($statement->execute())
 {
  $result = $statement->fetchAll();
-s
+
  foreach($result as $row)
  {
   $output .= '
